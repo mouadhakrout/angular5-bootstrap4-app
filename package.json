@@ -21,8 +21,12 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
+    "install": "^0.10.4",
+    "npm": "^5.6.0",
     "rxjs": "^5.5.6",
+    "tether": "^1.4.3",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
@@ -44,5 +48,8 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.",
+  "main": "karma.conf.js",
+  "author": ""
 }
