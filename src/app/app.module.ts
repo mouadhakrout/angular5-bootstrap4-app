@@ -14,6 +14,9 @@ import {JwtInterceptor} from "./guards/jwt.interceptor";
 import { HomeComponent } from './home/home.component';
 import {routing} from "./app.routing";
 import {FormsModule} from "@angular/forms";
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { UsersComponent } from './users/users.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import {FormsModule} from "@angular/forms";
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
